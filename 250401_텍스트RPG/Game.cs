@@ -44,9 +44,12 @@ namespace _250401_텍스트RPG
                 Console.Clear();
 
                 curScene.Render();
+                Console.WriteLine();
                 curScene.Choice();
                 curScene.Input();
+                Console.WriteLine();
                 curScene.Result();
+                Console.WriteLine();
                 curScene.Wait();
                 curScene.Next();
 

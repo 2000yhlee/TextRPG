@@ -43,10 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TownScene.cs" />
-    <Compile Include="TitleScene.cs" />
+    <Compile Include="Scene\ShopScene.cs" />
+    <Compile Include="Scene\TownScene.cs" />
+    <Compile Include="Scene\TitleScene.cs" />
     <Compile Include="Game.cs" />
-    <Compile Include="Scene.cs" />
+    <Compile Include="Scene\Scene.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
