@@ -10,6 +10,10 @@ namespace _250401_텍스트RPG
     {
         static void Main(string[] args)
         {
+            //텍스트 게임 개발 시작
+            Game.Start();
+            Game.Run();
+            Game.End();
         }
     }
 }
