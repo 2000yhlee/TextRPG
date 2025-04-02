@@ -72,7 +72,7 @@ namespace _250401_텍스트RPG
                 case ConsoleKey.D2:
                     if (Game.Player.Speed >= 10)
                     {
-                        Game.ChangeScene()
+                        Game.ChangeScene();
                     }
                     break;
             }
