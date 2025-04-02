@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _250401_텍스트RPG
 {
-    public abstract class Scene
+    public abstract class Scene1
     {
         protected ConsoleKey input;
         public abstract void Render(); 

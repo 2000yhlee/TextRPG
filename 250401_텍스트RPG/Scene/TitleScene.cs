@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _250401_텍스트RPG
 {
-    class TitleScene : Scene
+    class TitleScene : Scene1
     {
         public override void Render()
         {

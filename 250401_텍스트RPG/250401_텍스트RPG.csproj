@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Player.cs" />
     <Compile Include="Scene\ShopScene.cs" />
     <Compile Include="Scene\TownScene.cs" />
     <Compile Include="Scene\TitleScene.cs" />
@@ -50,6 +51,8 @@
     <Compile Include="Scene\Scene.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scene\TraceScene.cs" />
+    <Compile Include="Util.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
